@@ -6,8 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guess-The-Number</title>
     <script type="module" src="/main.js"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div class="app">
+      <h1 class="app-title">Guess the number</h1>
+      <div class="start-app">
+        <p class="regles-app">L'application générera un nombre aléatoire et votre tâche consiste à le trouver en aussi peu de tentatives que possible.</p>
+        <button id="start">Start</button>
+      </div>
+      <div class="play-app">
+        <p class="info-play">J'ai généré un nombre entre 0 et 500, essayez de le retrouver 😆</p>
+        <p id="tentatives" class="score-play">Tentative :  </p>
+        <div class="proposition">
+          <label for="votre-proposition">Votre proposition :</label>
+          <div class="input">
+            <input type="text" id="votre proposition" name="votre proposition" placeholder="250">
+            <button id="submit" type="submit">Soumettre</button>
+          </div>
+          <p class="input-info">Entrez votre numéro à deviner</p>
+        </div>
+        <p id="message"></p>
+        <div class="attemps">
+          <div id="attemps" class="play-prop"></div>
+          <div class="range-labels">
+            <p class="prop-min">0</p>
+            <p class="prop-max">500</p>
+          </div>
+        </div>
+        <div class="restart">
+          <button id="restart">Restart</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
