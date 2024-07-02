@@ -17,13 +17,13 @@
       </div>
       <div id="game-container" class="play-app hidden">
         <p class="info-play">J'ai généré un nombre entre 0 et 500, essayez de le retrouver 😆</p>
-        <p id="tentatives" class="score-play">Tentative : 0 </p>
+        <p id="attempt" class="score-play">Tentative(s) : 0 </p>
         <div class="proposition">
-          <label for="votre-proposition">Votre proposition :</label>
-          <div class="input">
-            <input type="text" id="votre-proposition" name="votre-proposition" placeholder="250">
+          <label for="guess">Votre proposition :</label>
+          <form id="guess-form" class="input">
+            <input name="guess" placeholder="250">
             <button id="submit" type="submit">Soumettre</button>
-          </div>
+          </form>
           <p class="input-info">Entrez votre numéro à deviner</p>
         </div>
         <p id="message"></p>
@@ -34,7 +34,7 @@
             <p class="prop-max">500</p>
           </div>
         </div>
-        <button id="restart">Restart</button>
+        <button class="hidden" id="restart">Restart</button>
       </div>
     </div>
   </body>
