@@ -95,6 +95,7 @@ class Game {
         if (guess === this.targetNumber) {
             this.message.innerText = `🎉 Bravo, vous avez trouvé le nombre qui été ${this.targetNumber}, en ${this._attempt} Tentative(s).`;
             this.restartButton.classList.remove('hidden');
+            this.restartButton.style.display = 'flex';
             return;
         }
 
@@ -115,6 +116,7 @@ class Game {
         this.message.innerText = "";
         this.attemptElement.innerText = "Tentative(s) : 0";
         this.restartButton.classList.add('hidden');
+        this.restartButton.style.display = 'none';
     }
 }
 

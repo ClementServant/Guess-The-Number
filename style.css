@@ -1,3 +1,8 @@
+/* Import the font family Gluten from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -34,10 +39,10 @@ body {
   width: 100%;
   height: 75px;
   color: #000;
-  font-family: Raleway;
-  font-size: 64px;
+  font-family: "Inspiration", cursive;
+  font-size: 63px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -52,10 +57,10 @@ body {
   .regles-app {
     width: 460px;
     color: #000;
-    font-family: Inter;
+    font-family: "Indie Flower", cursive;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 00;
     line-height: normal; 
   }
   
@@ -66,10 +71,10 @@ body {
     border: none;
     background: #0F172A;
     color: #FFF; 
-    font-family: Inter;
+    font-family: "Indie Flower", cursive;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500; 
+    font-weight: 400; 
     line-height: normal;
     cursor: pointer;
   }
@@ -82,7 +87,7 @@ body {
   align-items: center;
   width: 487px;
   height: auto;
-  gap: 32px;
+  gap: 26px;
 
   .info-play  {
     display: flex;
@@ -90,20 +95,20 @@ body {
     align-items: center;
     width: 100%;
     color: #000;
-    font-family: Inter;
-    font-size: 18px;
+    font-family: "Indie Flower", cursive;
+    font-size: 17px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
   }
   .score-play {
     text-align: right;
     width: 100%;
     color: #000;
-    font-family: Inter;
+    font-family: "Indie Flower", cursive;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: normal;
   }
 }
@@ -115,14 +120,14 @@ body {
 
   label {
     color: #0F172A;
-    font-family: Inter;
+    font-family: "Indie Flower", cursive;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500; 
+    font-weight: 400; 
   }
   .input-info {
     color: #64748B;
-    font-family: Inter;
+    font-family: "Indie Flower", cursive;
     font-size: 16px;
     font-style: normal;
     font-weight: 400; 
@@ -140,10 +145,10 @@ body {
     border: 1px solid #CBD5E1;
     background: #FFF;
     color: #0F172A; 
-    font-family: Inter;
+    font-family: "Indie Flower", cursive;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500; 
+    font-weight: 400; 
     line-height: normal;
   }
   #submit {
@@ -156,13 +161,20 @@ body {
     color: #FFF; 
     border-radius: 6px;
     background: #0F172A;
-    font-family: Inter;
+    font-family: "Indie Flower", cursive;
     font-size: 14px;
     font-style: normal;
-    font-weight: 500; 
+    font-weight: 400; 
     border: none;
     cursor: pointer;
   }
+}
+.message {
+  color: #000;
+  font-family: "Indie Flower", cursive;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400; 
 }
 .attempts {
   display: flex;
@@ -192,10 +204,10 @@ body {
     .prop-min, .prop-max {
       color: #000;
       text-align: center;
-      font-family: Inter;
+      font-family: "Indie Flower", cursive;
       font-size: 16px;
       font-style: normal;
-      font-weight: 500;
+      font-weight: 400;
     }
   }
 }
@@ -208,10 +220,10 @@ body {
   padding: 8px 16px;
   background: #0F172A; 
   color: #FFF; 
-  font-family: Inter;
+  font-family: "Indie Flower", cursive;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500; 
+  font-weight: 400; 
   border: none;
   cursor: pointer;
 } 
